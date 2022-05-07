@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link rel="icon" href="../images/Logo.jpg" type="image/x-icon" />
+    <!--in html 5 don't need type attribute on the link tag -->
+    <link rel="stylesheet" href="../CSS/myStyle.css" />
+  </head>
+
+  <body class="bodyAbout">
+    <section class="container" id="top">
+      <!-- header section -->
+      <!--A	header element include introductory content	and navigtional aids that are specific to any single section of a page -->
+
+      <header>
+        <div class="logo">
+          <label class="name">Savi</label>
+        </div>
+
+        <!--nav include all the links to other pages of this webpage -->
+
+        <nav>
+          <ul>
+            <li><a href="../HTML pages/main.html">Home</a></li>
+            <li><a href="../HTML pages/about.html">About</a></li>
+            <li><a href="../HTML pages/blog.html">Blog</a></li>
+            <li><a href="../HTML pages/newsletter.html">Newsletter</a></li>
+            <div id="indicator"></div>
+          </ul>
+        </nav>
+
+        <a href="#contOpen" class="contLink1" id="contClose">Contact</a>
+      </header>
+
+      <!-- contact box -->
+
+      <div class="cont_container" id="contOpen">
+        <section class="contBox">
+          <div class="contName">
+            <div class="avatar">
+              <img
+                src="../images/contavatar1.jpeg"
+                alt="my avatar"
+                class="myavatar"
+              />
+            </div>
+            <div class="personName">Savini Wimalananda</div>
+            <a href="#contClose" class="contLink2"></a>
+          </div>
+          <div class="contactInfo">
+            <section class="contHeader">
+              <h3>Contact Info</h3>
+              <div class="infobox">
+                <div>
+                  <span><i class="fas fa-map-marker-alt"></i></span>
+                  <p>
+                    290/1A, Magammana, Homagama, <br />
+                    Sri Lanka
+                  </p>
+                </div>
+                <div>
+                  <span><i class="fas fa-envelope"></i></span>
+                  <a href="mailto:saviniw219@gmail.com">saviniw219@gmail.com</a>
+                </div>
+                <div>
+                  <span><i class="fas fa-phone"></i></span>
+                  <a href="tel:+0775091741">077 509 1741</a>
+                </div>
+
+                <!-- social media links -->
+
+                <ul class="socialIco">
+                  <li>
+                    <a href="https://twitter.com/savini_lakna55" target="_blank"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/" target="_blank"
+                      ><i class="fab fa-instagram"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/in/savini-wimalananda-a35507207/"
+                      target="_blank"
+                      ><i class="fab fa-linkedin"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="https://slack.com/" target="_blank"
+                      ><i class="fab fa-slack"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </section>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- About Page -->
+    <!-- this used to create the main content of this page -->
+
+    <section>
+      <div class="wrapper">
+        <div class="testimonial">
+          <!-- this tag specifies independant, self containe content of this page -->
+
+          <article>
+            <h1 class="about">Who I Am</h1>
+            <div class="aboutimg">
+              <img src="../images/aboutpic.jpg" alt="myImage" />
+            </div>
+            <div class="aboutxt">
+              <div class="wrapper1">
+                <div class="typing-demo">
+                  <p class="para1">Hii</p>
+                </div>
+              </div>
+              <p class="para2">
+                My name is Savini Lakna Wimalananda. I am 21. I'm currently
+                attending to the Informatics Institue of Technology. This is my
+                second year of being an undergraduate. I will be Graduated in
+                2024 with my Bachelor of Science in Computer Science. I would
+                love to have a great training and development job at a
+                technology company as a front-end developer.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- progress bar -->
+
+    <section class="my skills">
+      <div class="skillsWrapper">
+        <div class="skillContainer">
+          <h2 class="skillTopic">My Skills</h2>
+
+          <div class="skills">
+            <div class="details">
+              <span>HTML</span>
+              <span>80%</span>
+            </div>
+            <div class="bar">
+              <div id="html-bar"></div>
+            </div>
+          </div>
+
+          <div class="skills">
+            <div class="details">
+              <span>CSS</span>
+              <span>65%</span>
+            </div>
+            <div class="bar">
+              <div id="css-bar"></div>
+            </div>
+          </div>
+
+          <div class="skills">
+            <div class="details">
+              <span>Javascript</span>
+              <span>52%</span>
+            </div>
+
+            <div class="bar">
+              <div id="js-bar"></div>
+            </div>
+          </div>
+
+          <div class="skills">
+            <div class="details">
+              <span>jQuery</span>
+              <span>40%</span>
+            </div>
+            <div class="bar">
+              <div id="jQuery-bar"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <!-- footer section of this page. its include copyrights and auther ddetails-->
+
+    <footer class="footer-distributed">
+      <div class="footer-left">
+        <h3>Savi</h3>
+
+        <p class="footer-links">
+          <a href="../HTML pages/main.html">Home</a>
+          ·
+          <a href="../HTML pages/about.html">About</a>
+          ·
+          <a href="../HTML pages/blog.html">Blog</a>
+          ·
+          <a href="../HTML pages/newsletter.html">Newsletter</a>
+        </p>
+
+        <p class="footer-company-name">Savini Wimalananda &copy; 2021</p>
+      </div>
+
+      <div class="footer-center">
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p>
+            290/1A, Magammana<br />
+            Homagama, Sri Lanka
+          </p>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>077 509 1741</p>
+        </div>
+
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:saviniw219@gmail.com">saviniw219@gmail.com</a></p>
+        </div>
+      </div>
+
+      <div class="footer-right">
+        <p class="footer-company-about">
+          <a href=" ">Back To Top</a>
+        </p>
+
+        <div class="footer-icons">
+          <a href="https://twitter.com/savini_lakna55" target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="https://www.instagram.com/" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/savini-wimalananda-a35507207/"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://slack.com/" target="_blank"
+            ><i class="fab fa-slack"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/d9d60f8e97.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
